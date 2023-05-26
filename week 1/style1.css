@@ -1,0 +1,56 @@
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    padding: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 20vw;
+
+}
+h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    padding: 5%;
+    margin: 5%;
+    width: 20vw;
+    border-radius: 6px;
+}
+a{
+    padding: 15%;
+    font-size: 16px;
+}
+.page{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pagebg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    width: 30vw;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.submitBtn{
+    color: #fff;
+    background-color: #1877f2;
+    font-size: 28px;
+}
